@@ -4350,12 +4350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/utopia-php/http.git",
-                "reference": "607abe2bc75107b459d886fecbf9283ac590425a"
+                "reference": "93930f916955bf9e6a5cd123b481e60f9617e43d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utopia-php/http/zipball/607abe2bc75107b459d886fecbf9283ac590425a",
-                "reference": "607abe2bc75107b459d886fecbf9283ac590425a",
+                "url": "https://api.github.com/repos/utopia-php/http/zipball/93930f916955bf9e6a5cd123b481e60f9617e43d",
+                "reference": "93930f916955bf9e6a5cd123b481e60f9617e43d",
                 "shasum": ""
             },
             "require": {
@@ -4398,7 +4398,7 @@
                 "issues": "https://github.com/utopia-php/http/issues",
                 "source": "https://github.com/utopia-php/http/tree/feat-safe-wildcards"
             },
-            "time": "2026-05-15T17:54:52+00:00"
+            "time": "2026-05-18T12:58:50+00:00"
         },
         {
             "name": "utopia-php/image",
