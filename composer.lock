@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b645c7da1728536497fe8186b158f9c6",
+    "content-hash": "417fea1d2004917e8ea8ea58b0ed67a2",
     "packages": [
         {
             "name": "adhocore/jwt",
@@ -4346,16 +4346,16 @@
         },
         {
             "name": "utopia-php/http",
-            "version": "2.0.0-rc1",
+            "version": "dev-feat-safe-wildcards",
             "source": {
                 "type": "git",
                 "url": "https://github.com/utopia-php/http.git",
-                "reference": "3e3b431d443844c6bf810120dee735f45880856f"
+                "reference": "607abe2bc75107b459d886fecbf9283ac590425a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/utopia-php/http/zipball/3e3b431d443844c6bf810120dee735f45880856f",
-                "reference": "3e3b431d443844c6bf810120dee735f45880856f",
+                "url": "https://api.github.com/repos/utopia-php/http/zipball/607abe2bc75107b459d886fecbf9283ac590425a",
+                "reference": "607abe2bc75107b459d886fecbf9283ac590425a",
                 "shasum": ""
             },
             "require": {
@@ -4396,9 +4396,9 @@
             ],
             "support": {
                 "issues": "https://github.com/utopia-php/http/issues",
-                "source": "https://github.com/utopia-php/http/tree/2.0.0-rc1"
+                "source": "https://github.com/utopia-php/http/tree/feat-safe-wildcards"
             },
-            "time": "2026-05-05T15:00:03+00:00"
+            "time": "2026-05-15T17:54:52+00:00"
         },
         {
             "name": "utopia-php/image",
@@ -8627,10 +8627,17 @@
             "time": "2024-11-07T12:36:22+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "utopia-php/http",
+            "version": "dev-feat-safe-wildcards",
+            "alias": "2.0.x-dev",
+            "alias_normalized": "2.0.9999999.9999999-dev"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "utopia-php/http": 5
+        "utopia-php/http": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
